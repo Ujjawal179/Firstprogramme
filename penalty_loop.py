@@ -1,13 +1,16 @@
+# it's a panelty loop
 __author__ = 'peterdaly'
 
 penalties = []
 
 def penalty_sys_1():
 
-    while len(penalties) != 4:
+    while penalties==4:
+        
         penalty = 1
+        penalties=penalty+1
 
-        print "you've gained one penalty :", penalty
+        print("you've gained one penalty :", penalty)
 
         penalties.append(penalty)
 
@@ -24,19 +27,3 @@ def penalty_sys_1():
 
     import start2
     start2.start_special()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
